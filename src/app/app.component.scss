@@ -1,0 +1,34 @@
+@import "../styles/variables";
+:host {
+    background-color: $wash-color;
+    display: block;   
+}
+.container {
+    background-color: white;
+    height: $panel-height;
+    .row {
+        padding: 16px;
+        flex-direction: column;
+        font-family: 'Carvery';
+        color: $dark-brown-color;
+        .title {
+            letter-spacing: 2.4px;
+            font-size: 48px;
+            font-weight: $font-bold;
+            margin-bottom: 20px;
+        }
+        .subheading {
+            margin-top: 16px;
+            font-size: 32px;
+            font-weight: $font-semi-bold;
+            margin-bottom: 20px;
+            letter-spacing: 0.8px;
+        }
+    }
+}
+.divider {
+    background-image: url(https://www.panerabread.com/delivery/panerabread/menu/delivery-categories/misc/dotshover.png.transform/foundation-retail-original/image.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 10px;
+}
